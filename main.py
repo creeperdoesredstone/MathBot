@@ -4,9 +4,6 @@ import os
 from nextcord.ext import commands
 from keep_up import keep_awake
 
-# Version
-version = 'MathBot | v 3.2'
-
 # Discord stuff
 intents = nextcord.Intents().default()
 intents.message_content = True
