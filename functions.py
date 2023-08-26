@@ -4,7 +4,7 @@ import cmath
 import random as rand
 
 # Version
-version = 'MathBot | v 3.2'
+version = 'MathBot | v 3.3'
 
 # Constants
 constants = ['pi', 'e', 'phi', 'ec', 'tau', 'π', 'φ', 'γ', 'τ']
