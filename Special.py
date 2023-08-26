@@ -92,13 +92,25 @@ class Special(commands.Cog):
 		embed.set_footer(text=functions.version)
 		await interaction.response.send_message(embed=embed)
 
-	@nextcord.slash_command(name='g_sequence',
+	@nextcord.slash_command(name='g_series',
 						   description='Returns n terms of a geometric series with a common ratio of r')
-	async def g_sequence(self, interaction: Interaction, n, r):
+	async def g_series(self, interaction: Interaction, n, r):
 		n = int(n)
 		r = int(r)
 		embed = nextcord.Embed(title='Output',
 							  description=functions.gSequence(n, r),
+							  color=0x66ffff)
+		embed.set_footer(text=functions.version)
+		await interaction.response.send_message(embed=embed)
+
+	@nextcord.slash_command(name='g_sequence',
+							description='Generates a linear sequence with n terms')
+	async def g_sequence(self, interaction: Interaction, n, start, difference):
+		n = int(n)
+		start = float(start)
+		difference = float(difference)
+		embed = nextcord.Embed(title='Output',
+							  description=functions.generateSeq(n, start, difference),
 							  color=0x66ffff)
 		embed.set_footer(text=functions.version)
 		await interaction.response.send_message(embed=embed)
