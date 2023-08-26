@@ -1,6 +1,7 @@
 # Import required modules
 import nextcord
 import os
+from functions import version
 from nextcord.ext import commands
 from keep_up import keep_awake
 
