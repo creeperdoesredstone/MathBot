@@ -1,10 +1,10 @@
 Introducing Math Bot, a new bot that is still in progress.
 So far, it can run these commands:
-    /help
-    /random
-    /randint (min) (max)
-    /roll
-    /calc (expression)
+- /help
+- /random
+- /randint (min) (max)
+- /roll
+- /calc (expression)
     /basecalc (base) (expression)
     /trig (operation) (value)
     /pytriangle (side) (side)
