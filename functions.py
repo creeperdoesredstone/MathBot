@@ -61,6 +61,13 @@ def isFib(n):
 def isBell(n):
 	return 
 
+def isPalin(n):
+	value_str = str(n)
+	if value_str == value_str[::-1]:
+		return True
+	else:
+		return False
+
 def cosine(value):
 	return Math.cos(value*pi/180)
 
