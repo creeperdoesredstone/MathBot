@@ -1,4 +1,4 @@
-Introducing Math Bot, a new bot that is still in progress.
+Introducing Math Bot, a not-so-new bot that is somehow still in progress.
 So far, it can run these commands:
 - /help
 - /random
