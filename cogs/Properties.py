@@ -57,6 +57,9 @@ class Properties(commands.Cog):
 		embed.add_field(name='Is a Fibonacci number?',
 						value='Yes' if functions.isFib(number) else 'No',
 						inline=True)
+		embed.add_field(name='Is a Palindrome number?',
+						value='Yes' if functions.isPalin(number) else 'No',
+						inline=True)
 		embed.add_field(name='',
 						value='',
 						inline=False)
