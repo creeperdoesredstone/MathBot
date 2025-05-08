@@ -1,0 +1,56 @@
+{
+	"General" : {
+		"help [command]" : "Generates this message. Optional argument [command] is used for help on a specific command - which you do not need to enter arguments.",
+		"ping" : "For testing purposes. Returns Pong! if successful.",
+		"cmd_stats" : "Returns the stats of MathBot commands.",
+		"input (value)" : "Inputs a value."
+	},
+	"Probability" : {
+		"random" : "Generates a random value between 0 and 1.",
+		"randint (min) (max)" : "Generates a random integer between (min) and (max)",
+		"roll" : "Rolls a dice",
+		"flip" : "Flips a coin"
+	},
+	"Number Theory" : {
+		"factors (n)" : "Returns the prime factors of n, assuming n is a positive integer and n has less than 61 digits.",
+		"convert (base1) (base2) (value)" : "Converts (value) from (base1) to (base2). Available bases are from 2 to 64. For any digit with a value between 10 and 35, the numbers represented by letters **MUST** be written in capitals. Any digit with a value between 36 and 61 **MUST** be written in lowercase.",
+		"fib (n)" : "Returns the nth term of the Fibonacci sequence.",
+		"constant (c)" : "Returns a constant. Available constants are `pi`, `e`, `phi`, `ec`, `tau`, `i` and `your mom`?",
+        "prime (n)" : "Returns the nth prime, assuming 0 < n < 56561.",
+		"properties (number)" : "Lists all the properties of (number)."
+	},
+	"Arithmetic / Algebra" : {
+		"calc (expression)" : "Returns the result of (expression). Available operations are `+`, `-`, `*`, `/`, `%`, `^`.",
+		"root (n) (value)" : "Returns the nth root of (value)",
+		"sum (n)" : "Returns the sum of the first n numbers, assuming n is a positive integer.",
+		"solve (equation)" : "Solves for x in (equation).",
+		"basecalc (base) (expression)" : "Returns the result of (expression) in base (base). Available operations are `+`, `-`, `*`, `/`, `%`, `^`.",
+		"term (n) (sequence)" : "Returns the nth term of a linear sequence. Terms are separated by commas.",
+		"g_series (n) (start) (r)" : "Returns the nth term a geometric series with the start term of (start) and a common ratio of r.",
+		"g_sequence (n) (start) (difference)" : "Generates a linear sequence with n terms, with the first term being (start) and the common difference being (difference).",
+		"round (value) [mode]" : "Rounds (value). Available modes are `floor`, `ceil`, `ceiling`. The (mode) input can be left empty."
+	},
+	"Combinatorics" : {
+		"permutations (n) (r)" : "Returns nPr, where n is the total number of objects and r is the number of objects selected.",
+		"combinations (n) (r)" : "Returns nCr, where n is the total number of objects and r is the number of objects selected.",
+		"factorial (n)" : "Returns n!, assuming 0 ≤ n < 1495."
+	},
+	"Geometry" : {
+		"trig (operation) (value)" : "Returns (value) after passed through a trigonometry operation. Available operations are `sin`, `cos`, `tan`, `asin`, `acos`, `atan`. (value) is in degrees.",
+		"radians (value)" : "Converts (value) to radians.",
+		"degrees (value)" : "Converts (value) to degrees.",
+		"pytriangle (side) (side)" : "Returns the hypoteneuse of a right triangle.",
+		"sidecalc (mode) (places)" : "Calculates the missing side of a triangle and rounds that length to (places) decimal places. Available modes are `rhs`, `rss`, `rsa`, `rha`, `asa`, `sas`."
+	},
+	"Graphing" : {
+		"plot (equation) (range)" : "Plots a graph based on the given equation and range."
+	},
+	"Logic" : {
+		"logic (operation) (val1) (val2)" : "Performs the binray logic (operation) on (val1) and (val2). Available operations are `and`, `or`, `xor`, `nand`, `nor`, `xnor`."
+	},
+	"Calculus" : {
+		"derive (expression)" : "Returns the derivative of (expression).",
+		"log (n)" : "Returns the logarithms of n.",
+    "integrate (expression) (lowerBound) (upperBound)" : "Returns the integral of (expression) from (lowerBound) to (upperBound)."
+	}
+}
