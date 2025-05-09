@@ -22,4 +22,6 @@ So far, it can run these commands:
 
 Here is the link to invite the bot to your server in case you are interested: https://discord.com/api/oauth2/authorize?client_id=885042856148996096&permissions=431644600384&scope=bot
 
-You can now test the bot by joining this server: https://discord.gg/6Wb35EHt 
+You can now test the bot by joining this server: https://discord.gg/6Wb35EHt
+
+The bot is also deployed here: https://discord.gg/2XMMQNe5EG
