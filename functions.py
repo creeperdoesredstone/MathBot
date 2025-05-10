@@ -68,6 +68,19 @@ def isPalin(n):
 	else:
 		return False
 
+def average(values):
+    try:
+        nums = [float(v.strip()) for v in values.split(';') if v.strip() != '']
+        if len(nums) == 0:
+            return ['Error', 'No valid numbers found. Please try again.', 0xff0000]
+
+        avg = sum(nums) / len(nums)
+        if avg.is_integer():
+            avg = int(avg)
+        return ['Average Result', f'Average: {avg}', 0x66ffff]
+    except:
+        return ['Error', 'Invalid input. Please provide numbers separated by semicolons.', 0xff0000]
+
 def cosine(value):
 	return Math.cos(value*pi/180)
 
